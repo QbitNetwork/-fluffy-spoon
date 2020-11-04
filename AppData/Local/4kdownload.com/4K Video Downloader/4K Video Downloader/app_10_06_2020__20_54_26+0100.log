@@ -1,0 +1,69 @@
+20:54:26 +0100 (0x00003cc4) [info] Starting handler at D:/4KDownload/4kvideodownloader
+20:54:27 +0100 (0x00003cc4) [info] [app_Gui] [BaseTranslator] Using locale en_GB
+20:54:29 +0100 (0x00003cc4) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.13.1.3840, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+20:54:29 +0100 (0x00003cc4) [info] Creating new io context pool '' with 4 thread(s)
+20:54:29 +0100 (0x0000397c) [info] AsioContext::IoContext::threadFunc started
+20:54:29 +0100 (0x000006d8) [info] AsioContext::IoContext::threadFunc started
+20:54:29 +0100 (0x00002104) [info] AsioContext::IoContext::threadFunc started
+20:54:29 +0100 (0x00002c24) [info] AsioContext::IoContext::threadFunc started
+20:54:29 +0100 (0x00002c24) [info] There are not subscriptions. Iteration is not started
+20:54:39 +0100 (0x00003cc4) [info] [SoftwareUpdate] [Manager] checking
+20:54:39 +0100 (0x00003cc4) [info] [SoftwareUpdate] [Manager] parsing
+20:54:39 +0100 (0x00003cc4) [info] [SoftwareUpdate] [Manager] no update available
+20:54:48 +0100 (0x00003cc4) [info] App Graph: preparing request for url: parsers/determine_service
+20:54:48 +0100 (0x00003cc4) [info] App Graph: preparing request for graph
+20:54:48 +0100 (0x00003cc4) [info] App Graph: performing request for url: parsers/determine_service
+20:54:48 +0100 (0x00003cc4) [info] Creating graph: ServiceDeterminatorWorkerNode
+20:54:48 +0100 (0x00002104) [warning] Cannot determine service for url 'https://qbit.money/video/miningqbit.mp4', using 'html' parser
+20:54:48 +0100 (0x00003cc4) [info] Creating new io context pool 'graph_stop' with 4 thread(s)
+20:54:48 +0100 (0x000030cc) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x00001aec) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x00002828) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x0000256c) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x00003cc4) [info] Starting simultaneously running controllers queue 'parse' with limit 20
+20:54:48 +0100 (0x00003cc4) [info] App Graph: preparing request for url: parsers/html
+20:54:48 +0100 (0x00003cc4) [info] App Graph: preparing request for graph
+20:54:48 +0100 (0x00003cc4) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+20:54:48 +0100 (0x0000081c) [info] Creating graph: HtmlParserGraph
+20:54:48 +0100 (0x00002c24) [info] Creating new io context pool 'parser' with 4 thread(s)
+20:54:48 +0100 (0x00003b08) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x000039c8) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x000029dc) [info] AsioContext::IoContext::threadFunc started
+20:54:48 +0100 (0x00002488) [info] AsioContext::IoContext::threadFunc started
+20:54:49 +0100 (0x0000131c) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+20:54:49 +0100 (0x00003cc4) [info] Creating new io context pool 'content_size_getter' with 4 thread(s)
+20:54:49 +0100 (0x00001c10) [info] AsioContext::IoContext::threadFunc started
+20:54:49 +0100 (0x00001b40) [info] AsioContext::IoContext::threadFunc started
+20:54:49 +0100 (0x0000328c) [info] AsioContext::IoContext::threadFunc started
+20:54:49 +0100 (0x000033ec) [info] AsioContext::IoContext::threadFunc started
+20:54:55 +0100 (0x000022c8) [info] Requested to download 0 subtitle(s) : 
+20:54:55 +0100 (0x000022c8) [info] Starting simultaneously running controllers queue 'download' with limit 20
+20:54:55 +0100 (0x000022c8) [info] App Graph: preparing request for graph
+20:54:55 +0100 (0x000022c8) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+20:54:55 +0100 (0x0000081c) [info] Creating graph: Downloader Graph
+20:54:55 +0100 (0x00003fe0) [info] HTTP downloader queue add: element:1
+20:54:56 +0100 (0x0000131c) [warning] HTTP downloader queue cancel: element:1 is not found
+20:54:56 +0100 (0x0000131c) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+20:54:59 +0100 (0x00003cc4) [info] [Feedback] [MessageCenter] downloaded
+20:54:59 +0100 (0x00003cc4) [info] [Feedback] [MessageCenter] extracting messages
+20:54:59 +0100 (0x00003cc4) [info] [Feedback] [MessageCenter] extracted 0 messages
+20:56:11 +0100 (0x00003cc4) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x10dc75e0 '' (:0, )
+20:56:11 +0100 (0x00003cc4) [warning] HTTP downloader queue cancel: element:1 is not found
+20:56:11 +0100 (0x00003cc4) [info] Stopping simultaneously running controllers queue 'parse'
+20:56:11 +0100 (0x00003cc4) [info] Stopping simultaneously running controllers queue 'download'
+20:56:11 +0100 (0x000033ec) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00001c10) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x0000328c) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00001b40) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00002828) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x0000256c) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x000030cc) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00001aec) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00002488) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x000029dc) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x000039c8) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00003b08) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00002c24) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x0000397c) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x000006d8) [info] AsioContext::IoContext::threadFunc finished
+20:56:11 +0100 (0x00002104) [info] AsioContext::IoContext::threadFunc finished

@@ -1,0 +1,9 @@
+20:54:20 +0100 (0x00003488) [info] Starting handler at C:/Users/User/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/fe70d123-548a-4e63-9edb-c1f148c3afd0/4kvideodownloader
+20:54:20 +0100 (0x00003488) [info] [app_Gui] [BaseTranslator] Using locale en_GB
+20:54:20 +0100 (0x00003488) [info] [SoftwareUpdate] [Installer] install update requested
+20:54:23 +0100 (0x000011bc) [info] [SoftwareUpdate] [Installer] starting
+20:54:23 +0100 (0x000011bc) [info] [SoftwareUpdate] [Installer] copying from C:/Users/User/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/fe70d123-548a-4e63-9edb-c1f148c3afd0/4kvideodownloader to D:/4KDownload/4kvideodownloader
+20:54:24 +0100 (0x00003488) [info] [SoftwareUpdate] [Installer] completed
+20:54:24 +0100 (0x00003488) [warning] [SoftwareUpdate] [Installer] Can not find Upgrade GUID in registry
+20:54:24 +0100 (0x00003488) [info] [SoftwareUpdate] [Installer] shell command init: path D:/4KDownload/4kvideodownloader, absoluteFilePath D:/4KDownload/4kvideodownloader/4kvideodownloader.exe
+20:54:24 +0100 (0x00003488) [info] [SoftwareUpdate] [Installer] shell command: "D:/4KDownload/4kvideodownloader/4kvideodownloader.exe" --suupdated="true"

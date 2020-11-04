@@ -1,0 +1,10 @@
+13:30:51 +0100 (0x00003278) [info] Launched with arguments: G:\New folder (96)\4KDownload\4kvideodownloader\4kvideodownloader.exe
+13:30:52 +0100 (0x00003278) [info] [app_Gui] [Translator] Using locale en_GB
+13:30:52 +0100 (0x00003278) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.8.0.2852, appCast=https://www.4kdownload.com/static/main/app/appcast/videodownloader.xml
+13:31:02 +0100 (0x00003278) [info] [SoftwareUpdate] [Manager] checking
+13:31:04 +0100 (0x00003278) [info] [SoftwareUpdate] [Manager] parsing
+13:31:04 +0100 (0x00003278) [info] [SoftwareUpdate] [Manager] update available
+13:31:22 +0100 (0x0000260c) [info] [Feedback] [MessageCenter] extracting messages
+13:31:22 +0100 (0x0000260c) [info] [Feedback] [MessageCenter] extracted 0 messages
+16:12:10 +0100 (0x00003278) [info] Agreement rejected
+16:12:10 +0100 (0x00003278) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )

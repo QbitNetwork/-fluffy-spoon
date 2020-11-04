@@ -1,0 +1,20 @@
+20:48:46 +0100 (0x00003838) [info] Launched with arguments: D:\4KDownload\4kvideodownloader\4kvideodownloader.exe
+20:48:47 +0100 (0x00003838) [info] [app_Gui] [Translator] Using locale en_GB
+20:48:47 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.8.0.2852, appCast=https://www.4kdownload.com/static/main/app/appcast/videodownloader.xml
+20:48:50 +0100 (0x00003838) [info] Agreement accepted
+20:48:57 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] checking
+20:48:59 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] parsing
+20:48:59 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] update available
+20:49:17 +0100 (0x00003284) [info] [Feedback] [MessageCenter] extracting messages
+20:49:17 +0100 (0x00003284) [info] [Feedback] [MessageCenter] extracted 0 messages
+20:53:50 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] downloading
+20:53:50 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] update path C:/Users/User/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/6216728f-a86c-4760-9aec-1f330cd29d87
+20:54:04 +0100 (0x00003284) [info] [SoftwareUpdate] [Manager] downloaded hash 18828c6fc7d0d8c871055e262c832e22
+20:54:04 +0100 (0x00003284) [info] [SoftwareUpdate] [Manager] expected hash 18828c6fc7d0d8c871055e262c832e22
+20:54:04 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] extracting
+20:54:04 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] decompressDirectory: C:/Users/User/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/fe70d123-548a-4e63-9edb-c1f148c3afd0
+20:54:15 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] extract completed
+20:54:19 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] installing
+20:54:19 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] directory: C:/Users/User/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/fe70d123-548a-4e63-9edb-c1f148c3afd0
+20:54:19 +0100 (0x00003838) [info] [SoftwareUpdate] [Manager] shell commands: "C:/Users/User/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/fe70d123-548a-4e63-9edb-c1f148c3afd0/4kvideodownloader\4kvideodownloader.exe" --suinstall="D:/4KDownload/4kvideodownloader" 
+20:54:19 +0100 (0x00003838) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )
