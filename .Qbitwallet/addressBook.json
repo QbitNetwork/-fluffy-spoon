@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "name": "lovemyPub",
+        "address": "QBC9CoRSZy6ADQy5zC9eu6eXBH8cb6sYgjHSaYppEPV6CT5aEfwRZxpBkv69QEMB1qDjbCuSwdpnPB3hfNqm12Gv98nGWH6E6E",
+        "paymentID": ""
+    },
+    {
+        "name": "MagsDreams",
+        "address": "QBC9MaeTX2RjDsoqdK4UWJRbatmJWe5e8jQVjY27guW5ZagmK8UD8Ao4SjANxBsfujVPTY5D97LMqNGUDQgmjKRg4EpFvWK4dM",
+        "paymentID": ""
+    },
+    {
+        "name": "Raven-Red",
+        "address": "QBC9FvxSfrfN1M8h1MmjKpYuqHTHQarhAh7y3JRkuV3ZeiAcUfe29BdKt2dvLxdAsrjK5zafRApFrKA8hFDptpR261Z6dpRsdi",
+        "paymentID": ""
+    },
+    {
+        "name": "test.wallet",
+        "address": "QBC9BsA658hdvgPruWcVWK6iLXNTwTF8K5rAAEuAb69uTyswXviQP3bdxwqMbJUM71hgyG6P2QFZ2aJy4BnAr8X99mEDW9ahoK",
+        "paymentID": ""
+    },
+    {
+        "name": "walletA.wallet",
+        "address": "QBC9aXU2qDrLvuRA9QBNKBU6TAn7dLAhw7rtHM38Qm5qHL2NMpr9j6gfV2YAJcXvABXva8BC1TrtEXL3wkfNvpNg2hsPB6uH8T",
+        "paymentID": ""
+    },
+    {
+        "name": "walletB.wallet",
+        "address": "QBC9W3FgrqQTepyN7ef7Sda72tzvL5DfvTAgV5MFo9LU2V5hfZo2YBkPSk6dqHuX6ZihrZtKMrstmNvxbgV92VSG981sUCYPA7",
+        "paymentID": ""
+    }
+]

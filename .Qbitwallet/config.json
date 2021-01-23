@@ -1,11 +1,11 @@
 {
-    "walletFile": "D:\\User\\Documents\\test.wallet.wallet",
-    "enableAutoOptimization": true,
-    "scanCoinbaseTransactions": false,
+    "walletFile": "D:\\User\\Documents\\broker1.wallet",
+    "enableAutoOptimization": false,
+    "scanCoinbaseTransactions": true,
     "autoSelectDaemon": true,
     "minimizeToTray": false,
     "logLevel": "DISABLED",
-    "daemonHost": "95.111.242.134",
+    "daemonHost": "207.180.194.21",
     "daemonPort": 20101,
     "darkMode": true,
     "displayCurrency": "QBC",
@@ -15,7 +15,10 @@
     "fiatDecimals": 2,
     "selectedTimeZone": "local",
     "autoLockInterval": 15,
-    "autoLockEnabled": true,
+    "autoLockEnabled": false,
     "useLocalDaemon": false,
-    "daemonLogPath": ""
+    "daemonLogPath": "",
+    "darkmode": true,
+    "closeToTray": true,
+    "notifications": true
 }
