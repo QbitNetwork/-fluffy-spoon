@@ -1,0 +1,10 @@
+*.sw[ponml]
+.stack-work/
+*~
+*.hi
+*.o
+*.prof
+*.prof.html
+Rangeproof
+TAGS
+dist-newstyle
