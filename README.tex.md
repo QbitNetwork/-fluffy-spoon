@@ -1,6 +1,8 @@
+![Optional Text](../main/.assets/Qbit.png)
+
 <p align="center">
 <a href="https://blockapi.money">
-  <img width="250" src="./.assets/Qbit.png" alt="Qbit Logo" />
+
 </a>
 </p>
 
