@@ -1,6 +1,6 @@
 <p align="center">
-<a href="https://www.adjoint.io">
-  <img width="250" src="./.assets/adjoint.png" alt="Adjoint Logo" />
+<a href="https://blockapi.money">
+  <img width="250" src="./.assets/adjoint.png" alt="Qbit-Logo" />
 </a>
 </p>
 
@@ -27,6 +27,22 @@ of the two vectors of commitments.
 
 Bulletproofs present a protocol for conducting short and aggregatable range proofs.
 They encode a proof of the range of a committed number in an inner product, using polynomials.
+Polynomials are far easier to work with if express in their simplest form. You can add, subtract and multiply terms in a polynomial just as you do numbers, but with one caveat: You can only add and subtract like terms. For example: x2 + 3x2 = 4x2, but x + x2 cannot be written in a simpler form. When you multiply a term in brackets, such as (x + y +1) by a term outside the brackets, you multiply all terms in the bracket by the external one.
+
+y2 (x +y + 1) = xy2 + y3 + y2.
+
+Rendering this in standard notation with the highest exponent first and factoring, it becomes:
+
+y3 + (x+1)y2
+
+If both terms are in brackets, you multiply each term inside the first bracket by each term in the second.
+
+(y2 + 1) (x - 2y) = xy2 + x - 2y3 - 2y
+
+Rendering this in standard notation, it becomes:
+
+-2y3 + xy2 + x - 2y
+
 Range proofs are proofs that a secret value lies in a certain interval.
 Range proofs do not leak any information about the secret value, other
 than the fact that they lie in the interval.
@@ -234,24 +250,8 @@ Arithmetic Circuits in the Discrete Log Setting". University College London and 
 
 ## Disclaimer
 
-This is experimental code meant for research-grade projects only. Please do not
-use this code in production until it has matured significantly.
+This is experimental code only do not use this code in production.
+Additions by Dave Brennan, and k7n2g
 
-## License
 
-```
-Copyright 2018-2019 Adjoint Inc
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
 # bulletproofs
