@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://blockapi.money">
-  <img width="250" src="./.assets/adjoint.png" alt="Qbit-Logo" />
+  <img width="250" src="./.assets/Qbit.png" alt="Qbit-Logo" />
 </a>
 </p>
 
